@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+     
+        <title>Citizen Centric Innovation</title>
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+          * {
+        font-family: 'Public Sans', sans-serif !important;
+    }
+    :root {
+        --bs-body-font-family: 'Public Sans', sans-serif !important;
+    }
+  
+.banner {
+    position: relative;
+    background: url('../public/Main Banner.png');
+    background-size: cover;
+    background-position: center; 
+    padding: 40px;
+    box-sizing: border-box; /* Ensures padding doesn’t affect the total width/height */
+}
+
+
+        /* Adding the left inset shadow overlay */
+        .banner::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                90deg,
+                rgba(0, 0, 0, 0.7) 0%,
+                rgba(0, 0, 0, 0.4) 50%,
+                rgba(0, 0, 0, 0.1) 100%
+            );
+        }
+
+        /* Ensure content appears above the shadow */
+        .banner-content {
+            position: relative;
+            z-index: 2;
+            padding: 4rem 0;
+        }
+
+        .logo {
+    width: 136.97px;
+    height: 136.97px;
+    margin-bottom: 1rem;
+}
+
+        .banner-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 1rem;
+        }
+
+        .content-text {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Banner Section -->
+    <section class="banner">
+        <div class="container">
+            <div class="row banner-content align-items-center">
+                <div class="col-lg-8 text-start">
+                    <!-- Using relative path to go up one directory and into public/images -->
+                    <img src="../public/Artwork on banner.png" alt="Innovation Logo" class="logo">
+                    <h1 class="banner-title">Driving Citizen<br>Centric Innovation</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="container mt-5">
+        
+        <h3 class="fw-bold" style="font-size: 40px;">Engaging Youth to Improve Public Services</h3>
+        <p>
+            Government departments across Pakistan face challenges in delivering efficient, transparent, and citizen-friendly services. 
+            The Civic Innovator Program (CIP) by Code for Pakistan connects final-year university students with government institutions and 
+            industry mentors to build digital tools that enhance public services.
+        </p>
+        <p>
+            Through iteration, process improvements, and open-source civic technology, CIP helps make governance more accessible, 
+            accountable, and effective.
+        </p>
+    </div>
+
+    <!-- Section: Strengthening Public Services -->
+<section class="container my-5">
+    <div class="row justify-content-center">
+        <div class="">
+            <img src="../public/Main Banner.png" alt="Handshake" class="img-fluid rounded">
+        </div>
+    </div>
+
+    <div class="row justify-content-center mt-4">
+        <div class="  text-center   text-white p-4  " style="background-color: #08344F;">
+            <h3 class="fw-bold">Join Us in Strengthening Public Services!</h3>
+            <p class="mb-3">Want to partner with us?</p>
+            <a href="#" class="btn btn-danger px-4 py-2">Get Involved</a>
+        </div>
+    </div>
+</section>
+
+ 
+
+<!-- HOW IT WORKS SECTION -->
+<section class="container my-5">
+    <!-- Section Heading -->
+    <div class="d-flex align-items-center mb-4">
+        <img src="../public/Artwork on banner.png" alt="Innovation Logo" class="logo">
+        <h4 class="fw-bold mb-0">HOW IT WORKS</h4>
+    </div>
+    <p style="font-size: 20px;">
+        CIP runs over one academic year (7th & 8th semester). A steering committee with representatives from 
+        government, academia, and industry provides oversight twice a year.
+    </p>
+
+   
+    <!-- Cards Layout -->
+    <div class="container-fluid px-3"> <!-- Full width container -->
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <!-- Card 1 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm border border-2 w-100" 
+                    style="background-color: #E3F1F7; border-color: #3886C4; padding: 40px; min-height: 300px;">
+                    <h5 class="fw-bold" style="font-size: 32px; font-family: 'Public Sans', sans-serif;">Governments Submit Challenges</h5>
+                    <p class="text-secondary">
+                        Identify pressing public service issues. Gain low-cost, scalable solutions to improve efficiency and citizen engagement.
+                    </p>
+                    <div class="mt-auto text-start">
+                        <a href="#" class="btn rounded px-5 py-3 text-white" style="background-color: #E81E56;">Submit a Challenge</a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Card 2 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm border border-2 w-100" 
+                    style="background-color: #E3F1F7; border-color: #3886C4; padding: 40px; min-height: 300px;">
+                    <h5 class="fw-bold" style="font-size: 32px; font-family: 'Public Sans', sans-serif;">Universities Select Student Teams</h5>
+                    <p class="text-secondary">
+                        Final-year students research, prototype, and develop solutions. Integrated into final-year coursework for academic rigor and faculty support.
+                    </p>
+                    <div class="mt-auto text-start">
+                        <a href="#" class="btn rounded px-5 py-3 text-white" style="background-color: #E81E56;">Participate in CIP</a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Card 3 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm border border-2 w-100" 
+                    style="background-color: #E3F1F7; border-color: #3886C4; padding: 40px; min-height: 300px;">
+                    <h5 class="fw-bold" style="font-size: 32px; font-family: 'Public Sans', sans-serif;">Industry Mentors Provide Expertise</h5>
+                    <p class="text-secondary">
+                        Guide students through mentorship and technical feedback. Ensure projects align with real-world needs and best practices.
+                    </p>
+                    <div class="mt-auto text-start">
+                        <a href="#" class="btn rounded px-5 py-3 text-white" style="background-color: #E81E56;">Become a Mentor</a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Card 4 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm border border-2 w-100" 
+                    style="background-color: #E3F1F7; border-color: #3886C4; padding: 40px; min-height: 300px;">
+                    <h5 class="fw-bold" style="font-size: 32px; font-family: 'Public Sans', sans-serif;">Solutions Are Deployed</h5>
+                    <p class="text-secondary">
+                        Tested and refined solutions are handed off to government partners. Projects remain open-source for wider adoption.
+                    </p>
+                    <div class="mt-auto text-start">
+                        <a href="#" class="btn rounded px-5 py-3 text-white" style="background-color: #E81E56;">Partner with Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <section>
+    <div class="d-flex align-items-center mb-4">
+        <img src="../public/Artwork on banner.png" alt="Innovation Logo" class="logo">
+        <h4 class="fw-bold mb-0">PROGRAM TIMELINE</h4>
+    </div>
+    <p style="font-size: 20px;">
+        The program runs for two academic semesters (7th & 8th), approximately one year, allowing sufficient time for in-depth development and collaboration on projects.
+    </p>
+    <div class="row justify-content-center">
+        <div class="">
+            <img src="../public/CIP Infographic.png" alt="Handshake" class="img-fluid rounded">
+        </div>
+    </div>
+    </section>
+
+
+< <section class="container py-5">
+    <!-- Top Section -->
+    <div class="d-flex align-items-center mb-4">
+        <img src="../public/Artwork on banner.png" alt="Innovation Logo" class="me-3" width="60">
+        <h4 class="fw-bold mb-0">YOUR ROLE IN CIP</h4>
+    </div>
+
+    <!-- Main Content Row -->
+    <div class="row align-items-center">
+        <!-- Left Side - Image -->
+        <div class="col-md-4 text-center">
+            <img src="../public/Blue triangle.png" alt="Triangle Circuit" class="img-fluid" style="max-width: 200px;">
+        </div>
+
+        <!-- Right Side - Content -->
+        <div class="col-md-8">
+            <h2 class="fw-bold mb-3">Government Partners</h2>
+            <ul class="list-unstyled text-secondary fs-5">
+                <li>Provide Problem Statements Based On Public Service Challenges</li>
+                <li>Offer Domain Expertise And Occasional Feedback</li>
+                <li>Implement Successful Projects To Improve Services</li>
+            </ul>
+            <a href="#" class="btn btn-danger mt-3">Partner with Us</a>
+        </div>
+    </div>
+</section>
+<section class="container py-5">
+     <!-- Main Content Row -->
+    <div class="row align-items-center">
+        <!-- Left Side - Image -->
+        <div class="col-md-4 text-center">
+            <img src="../public/yellow triangle.png" alt="Triangle Circuit" class="img-fluid" style="max-width: 200px;">
+        </div>
+
+        <!-- Right Side - Content -->
+        <div class="col-md-8">
+            <h2 class="fw-bold mb-3">University Partners</h2>
+            <ul class="list-unstyled text-secondary fs-5">
+                <li>Facilitate student teams through academic supervision and project </li>
+                <li>integration</li>
+                <li>Provide access to labs, research resources, and faculty guidance</li>
+                 <li>Support interdisciplinary collaboration</li>
+            </ul>
+            <a href="#" class="btn btn-danger mt-3">Join as a University Partner</a>
+        </div>
+    </div>
+</section>
+<section class="container py-5">
+     <div class="row align-items-center">
+        <!-- Left Side - Image -->
+        <div class="col-md-4 text-center">
+            <img src="../public/Pink triangle.png" alt="Triangle Circuit" class="img-fluid" style="max-width: 200px;">
+        </div>
+
+        <!-- Right Side - Content -->
+        <div class="col-md-8">
+            <h2 class="fw-bold mb-3">Industry Mentors</h2>
+            <ul class="list-unstyled text-secondary fs-5">
+                <li>Guide students with technical and strategic advice</li>
+                <li>Commit a few hours per month for virtual or in-person mentorship</li>
+                <li>Participate in final project evaluations</li>
+                <li>Help students align solutions with industry standards</li>
+            </ul>
+            <a href="#" class="btn btn-danger mt-3">Become a Mentor</a>
+        </div>
+    </div>
+</section>
+</section>
+
+<section class="container py-5">
+    <div class="d-flex align-items-center mb-4">
+        <img src="../public/Artwork on banner.png" alt="Innovation Logo" class="me-3" width="60">
+        <h4 class="fw-bold mb-0">PROGRAM TIMELINE</h4>
+    </div>
+
+    <div class="container py-4">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 justify-content-center">
+            <!-- Card 1 -->
+            <div class="col d-flex">
+                <div class="card border border-secondary flex-fill p-4" 
+                     style="background-color: #FFF5F8; border-color: #808080; width: 110px; height: 250px; padding:  10px;">
+                    <div class="d-flex h-100 fw-bold" style="font-size: 25px; padding: 15px;">
+                        Water and Sanitation WSSP
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col d-flex">
+                <div class="card border border-secondary flex-fill p-4" 
+                     style="background-color: #FFF5F8; border-color: #808080; width: 150px; height: 250px;">
+                    <div class="d-flex h-100 fw-bold" style="font-size: 25px; padding: 15px;">
+                        Department of Wildlife
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col d-flex">
+                <div class="card border border-secondary flex-fill p-4" 
+                     style="background-color: #FFF5F8; border-color: #808080; width: 150px; height: 250px;">
+                    <div class="d-flex h-100 fw-bold" style="font-size: 25px; padding: 15px;">
+                        Administration Department
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col d-flex">
+                <div class="card border border-secondary flex-fill p-4" 
+                     style="background-color: #FFF5F8; border-color: #808080; width: 150px; height: 250px;">
+                    <div class="d-flex h-100 fw-bold" style="font-size: 25px;  padding: 15px;">
+                        Directorate of Agriculture Extension KP
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col d-flex">
+                <div class="card border border-secondary flex-fill p-4" 
+                     style="background-color: #FFF5F8; border-color: #808080; width: 150px; height: 250px;">
+                    <div class="d-flex h-100 fw-bold" style="font-size: 25px;  padding: 15px;">
+                        On-Farm Water Management Department
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col d-flex">
+                <div class="card border border-secondary flex-fill p-4" 
+                     style="background-color: #FFF5F8; border-color: #808080; width: 150px; height: 250px;">
+                    <div class="d-flex h-100 fw-bold" style="font-size: 25px;  padding: 15px;">
+                        Industries, Commerce and Technical Education Department
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container py-5">
+    <!-- Top Section -->
+    <div class="d-flex align-items-center mb-4">
+        <img src="../public/Artwork on banner.png" alt="Innovation Logo" class="me-3" width="60">
+        <h4 class="fw-bold mb-0">WHO WE WORK WITH</h4>
+    </div>
+    </section>
+
+    <div class="container py-4">
+        <h4 class="fw-bold">Government Partners</h4>
+
+        <!-- First Row (5 Images) -->
+        <div class="row align-items-center mb-4">
+            <div class="col-12 col-md-auto">
+                <img src="../public/Peshawar Zoo- Wildlife Department Logo.png" alt="Logo 1" class="img-fluid" width="500">
+            </div>
+            <div class="col-12 col-md-auto">
+                <img src="../public/On Farm Water Management Logo.jfif" alt="Logo 2" class="img-fluid" width="100">
+            </div>
+            <div class="col-12 col-md-auto">
+                <img src="../public/Agriculture extension KP Logo.png" alt="Logo 3" class="img-fluid" width="100">
+            </div>
+            <div class="col-12 col-md-auto">
+                <img src="../public/WSSP Logo.png" alt="Logo 4" class="img-fluid" width="100">
+            </div>
+            <div class="col-12 col-md-auto">
+                <img src="../public/Halal Food Authority Logo.png" alt="Logo 5" class="img-fluid" width="100">
+            </div>
+        </div>
+    
+        <!-- Heading: University Partners -->
+        <h4 class="fw-bold">University Partners</h4>
+    
+        <!-- Second Row (3 Images) -->
+        <div class="row align-items-center mb-4">
+            <div class="col-12 col-md-auto">
+                <img src="uni1.png" alt="University 1" class="img-fluid" width="120">
+            </div>
+            <div class="col-12 col-md-auto">
+                <img src="uni2.png" alt="University 2" class="img-fluid" width="120">
+            </div>
+            <div class="col-12 col-md-auto">
+                <img src="uni3.png" alt="University 3" class="img-fluid" width="120">
+            </div>
+        </div>
+    
+        <!-- Heading: Industry Mentors -->
+        <h4 class="fw-bold">Industry Mentors</h4>
+    
+        <!-- Third Row (4 Images) -->
+        <div class="row align-items-center">
+            <div class="col-12 col-md-auto">
+                <img src="mentor1.png" alt="Mentor 1" class="img-fluid" width="120">
+            </div>
+            <div class="col-12 col-md-auto">
+                <img src="mentor2.png" alt="Mentor 2" class="img-fluid" width="120">
+            </div>
+            <div class="col-12 col-md-auto">
+                <img src="mentor3.png" alt="Mentor 3" class="img-fluid" width="120">
+            </div>
+            <div class="col-12 col-md-auto">
+                <img src="mentor4.png" alt="Mentor 4" class="img-fluid" width="120">
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
