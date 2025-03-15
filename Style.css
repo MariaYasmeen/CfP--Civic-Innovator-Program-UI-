@@ -2,39 +2,39 @@
 
 @font-face {
   font-family: "Raleway-Regular";
-  src: url(../fonts/Raleway-Regular.ttf);
+  src: url(./assets/fonts/Raleway-Regular.ttf);
 }
 @font-face {
   font-family: "Raleway-Medium";
-  src: url(../fonts/Raleway-Medium.ttf);
+  src: url(./assets/fonts/Raleway-Medium.ttf);
 }
 @font-face {
   font-family: "Raleway-Semi";
-  src: url(../fonts/Raleway-SemiBold.ttf);
+  src: url(./assets/fonts/Raleway-SemiBold.ttf);
 }
 @font-face {
   font-family: "Raleway-Bold";
-  src: url(../fonts/Raleway-Bold.ttf);
+  src: url(./assets/fonts/Raleway-Bold.ttf);
 }
 @font-face {
   font-family: "Raleway-Light";
-  src: url(../fonts/Raleway-Light.ttf);
+  src: url(./assets/fonts/Raleway-Light.ttf);
 }
 @font-face {
   font-family: "PublicSans-Light";
-  src: url(../fonts/PublicSans-Light.ttf);
+  src: url(./assets/fonts/PublicSans-Light.ttf);
 }
 @font-face {
   font-family: "PublicSans-Regular";
-  src: url(../fonts/PublicSans-Regular.ttf);
+  src: url(./assets/fonts/PublicSans-Regular.ttf);
 }
 @font-face {
   font-family: "PublicSans-Medium";
-  src: url(../fonts/PublicSans-Medium.ttf);
+  src: url(./assets/fonts/PublicSans-Medium.ttf);
 }
 @font-face {
   font-family: "PublicSans-Bold";
-  src: url(../fonts/PublicSans-Bold.ttf);
+  src: url(./assets/fonts/PublicSans-Bold.ttf);
 }
 * {
   margin: 0;
@@ -137,19 +137,19 @@ a, .btn{
 }
  
 .top-civic-border {
-  background: url("../public/Top border.svg") repeat-x top / contain;
+  background: url("./assets/public/Top border.svg") repeat-x top / contain;
   background-size: auto;
   min-height: 60px;
 }
 .civic-hero-section{
-  background-image: linear-gradient(to right, rgb(0, 0, 0, 0.8),  rgb(115, 115, 115, 0.1), transparent), url('../public/Main Banner.svg');
+  background-image: linear-gradient(to right, rgb(0, 0, 0, 0.8),  rgb(115, 115, 115, 0.1), transparent), url('./assets/public/Main Banner.svg');
   background-size: cover;
 }
  
  
 
 .top-community-border {
-  background: url("./public/Top border.svg") repeat-x top / contain;
+  background: url("./assets/public/Top border.svg") repeat-x top / contain;
   background-size: auto;
   min-height: 60px;
 }
