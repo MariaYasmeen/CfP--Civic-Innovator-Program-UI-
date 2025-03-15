@@ -1,0 +1,201 @@
+ 
+
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url(../fonts/Raleway-Regular.ttf);
+}
+@font-face {
+  font-family: "Raleway-Medium";
+  src: url(../fonts/Raleway-Medium.ttf);
+}
+@font-face {
+  font-family: "Raleway-Semi";
+  src: url(../fonts/Raleway-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Raleway-Bold";
+  src: url(../fonts/Raleway-Bold.ttf);
+}
+@font-face {
+  font-family: "Raleway-Light";
+  src: url(../fonts/Raleway-Light.ttf);
+}
+@font-face {
+  font-family: "PublicSans-Light";
+  src: url(../fonts/PublicSans-Light.ttf);
+}
+@font-face {
+  font-family: "PublicSans-Regular";
+  src: url(../fonts/PublicSans-Regular.ttf);
+}
+@font-face {
+  font-family: "PublicSans-Medium";
+  src: url(../fonts/PublicSans-Medium.ttf);
+}
+@font-face {
+  font-family: "PublicSans-Bold";
+  src: url(../fonts/PublicSans-Bold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button,
+a, .btn{
+  font-family: "PublicSans-Medium";
+}
+
+
+.pbs-font{
+  font-family:"PublicSans-Regular";
+ }
+ 
+ .pbs-light-font{
+   font-family:"PublicSans-Light";
+ }
+ .pbs-med-font{
+   font-family:"PublicSans-Medium";
+  }
+ 
+ .pbs-bold-font {
+   font-family:"PublicSans-bold"
+ }
+ 
+ .top-heading{
+   color:#212529;
+ }
+/* Raleway Font Family */
+
+.rale-font{
+  font-family: "Raleway-Regular";
+}
+
+.rale-semi-font{
+  font-family: "Raleway-Semi";
+}
+
+.s-32{
+  font-family: "Raleway-Semi";
+  font-size: 32px !important;
+}
+
+
+.r-20{
+  font-family: "Raleway-Regular";
+  font-size: 20px !important;
+}
+
+
+.workpgtext{
+  font-family: "PublicSans-Bold";
+  font-size: 32px;
+  
+}
+.rale-bold-font{
+  font-family: "Raleway-Bold";
+}
+
+.fontcss{
+  font-family:'Raleway-Medium';
+  font-weight: 600;
+  font-size: 32px;
+}
+.b-36{
+  font-family: "Raleway-Bold";
+  font-size: 36px;
+}
+
+.btn-txt{
+  font-family: "PublicSans-Medium" !important;
+  font-size: 32px !important;
+}
+.pm-20{
+  font-family:"PublicSans-Medium" !important;
+  font-size: 20px !important;
+}
+.m-24{
+  font-family:'Raleway-Medium'; 
+  font-size: 24px;
+
+}
+.rale-light-font{
+  font-family:'Raleway-Light';
+}
+/* Public Sans Font Family */
+.worktxt{
+  font-family: "Raleway-Bold" !important;
+  font-size: 28px !important;
+  padding: 25px;
+
+}
+.ciptxt{
+  font-family: "Raleway-Bold" !important;
+  font-size: 32px !important;
+
+}
+ 
+.top-civic-border {
+  background: url("../public/Top border.svg") repeat-x top / contain;
+  background-size: auto;
+  min-height: 60px;
+}
+.civic-hero-section{
+  background-image: linear-gradient(to right, rgb(0, 0, 0, 0.8),  rgb(115, 115, 115, 0.1), transparent), url('../public/Main Banner.svg');
+  background-size: cover;
+}
+ 
+ 
+
+.top-community-border {
+  background: url("./public/Top border.svg") repeat-x top / contain;
+  background-size: auto;
+  min-height: 60px;
+}
+ 
+.px-6{
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+ 
+
+.img-57 {
+    width: 57px;
+    height: 57px;
+  }
+  
+  .railway-font{
+    font-family: 'Raleway', sans-serif !important;
+
+  }
+
+  .rolepg-imgs{
+    width: 302.05px;
+    height: 265px;
+  }
+
+  .box-size{
+    width: 327px;
+    border: 1px solid #808080 !important;
+    height: 282px;
+  }
+
+ 
+
+  .custom-card {
+    width: 327px;
+    height: 282px;
+    background-color: #FFF5F8;
+    border-color: #808080;
+}
+.card-content {
+    font-size: 1.1rem;
+    font-weight: bold; 
+    display: flex; 
+    height: 100%;
+    padding: 10px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+} 
