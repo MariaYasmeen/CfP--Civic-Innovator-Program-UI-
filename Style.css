@@ -99,21 +99,17 @@ a, .btn{
 
 .fontcss{
   font-family:'Raleway-Medium';
-  font-weight: 600;
-  font-size: 32px;
+  font-weight: 600; 
 }
 .b-36{
   font-family: "Raleway-Bold";
-  font-size: 36px;
 }
 
 .btn-txt{
-  font-family: "PublicSans-Medium" !important;
-  font-size: 32px !important;
+  font-family: "PublicSans-Medium" !important; 
 }
 .pm-20{
-  font-family:"PublicSans-Medium" !important;
-  font-size: 20px !important;
+  font-family:"PublicSans-Medium" !important; 
 }
 .m-24{
   font-family:'Raleway-Medium'; 
@@ -125,14 +121,12 @@ a, .btn{
 }
 /* Public Sans Font Family */
 .worktxt{
-  font-family: "Raleway-Bold" !important;
-  font-size: 28px !important;
+  font-family: "Raleway-Bold" !important; 
   padding: 25px;
 
 }
 .ciptxt{
-  font-family: "Raleway-Bold" !important;
-  font-size: 32px !important;
+  font-family: "Raleway-Bold" !important; 
 
 }
  
